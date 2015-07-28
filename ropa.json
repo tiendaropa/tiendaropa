@@ -1,0 +1,214 @@
+{
+		"clothing" :[
+		{
+				"code": 1 ,
+				"type" : "Shirt",
+				"brand":"Adidas",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"woman",
+				"sizes":["S","M","XL"],					
+				"price": 10,
+				"discount":10,
+				"cart":false,
+				"imagen" : "img/shirt-woman1.jpg",
+				"cart": false
+				
+		},
+		{
+				"code": 2 ,
+				"type" : "Shirt",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["S","M","L","XL"],	
+				"price": 25,
+				"discount":50,
+				"cart":false,
+				"imagen": "img/shirt-man1.jpg",
+				"cart": false
+
+		},
+		{
+				"code": 3 ,
+				"type" : "Shirt",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["S","M","L","XL"],	
+				"price": 25,
+				"discount":50,
+				"cart":false,
+				"imagen": "img/shirt-man2.jpg",
+				"cart": false
+
+		},
+		{
+				"code": 4 ,
+				"type" : "Pants",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"woman",
+				"sizes":["S","M","XL"],	
+				"price": 10,
+				"discount":10,
+				"cart":false,
+				"imagen" : "img/shirt-woman1.jpg",
+				"cart": false
+				
+		},
+		{
+				"code": 5 ,
+				"type" : "Sneakers",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["8","9","9.5","10"],	
+				"price": 25,
+				"discount":30,
+				"cart":false,
+				"imagen": "img/sneakers-man1.jpg",
+				"cart": false
+
+		},
+		{
+				"code": 6 ,
+				"type" : "Jacket",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["S","L","XL"],	
+				"price": 180,
+				"discount":10,
+				"cart":false,
+				"imagen" : "img/jacket-man1.jpg",
+				"cart": false
+				
+		},
+		{
+				"code": 7 ,
+				"type" : "Shirt",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"woman",
+				"sizes":["S","M","L","XL"],	
+				"price": 25,
+				"discount":10,
+				"cart":false,
+				"imagen": "img/shirt-woman2.jpg",
+				"cart": false
+
+		},
+		{
+				"code": 8 ,
+				"type" : "Shirt",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"woman",
+				"sizes":["S","M","L","XL"],					
+				"price": 10,
+				"discount":10,
+				"cart":false,
+				"imagen" : "img/shirt-woman1.jpg",
+				"cart": false
+				
+		},
+		{
+				"code": 9 ,
+				"type" : "Shirt",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["S","M","L","XL"],	
+				"price": 25,
+				"discount":50,
+				"cart":false,
+				"imagen": "img/shirt-man1.jpg",
+				"cart": false
+
+		},
+		{
+				"code": 10 ,
+				"type" : "Shirt",
+				"brand":"Levis",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["S","M"],
+				"price": 25,
+				"discount":50,
+				"cart":false,
+				"imagen": "img/shirt-man2.jpg",
+				"cart": false
+
+		},
+		{
+				"code": 11 ,
+				"type" : "Pants",
+				"brand":"Levis",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"woman",
+				"sizes":["S","M","L","XL"],
+				"price": 10,
+				"discount":10,
+				"cart":false,
+				"imagen" : "img/shirt-woman1.jpg",
+				"cart": false
+				
+		},
+		{
+				"code": 12 ,
+				"type" : "Sneakers",
+				"brand":"Reebook",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["S","M","L","XL"],
+				"price": 25,
+				"discount":30,
+				"cart":false,
+				"imagen": "img/sneakers-man1.jpg",
+				"cart": false
+
+		},
+		{
+				"code": 13 ,
+				"type" : "Jacket",
+				"brand":"Columbia",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"man",
+				"sizes":["S","M","L","XL"],
+				"price": 1000,
+				"discount":10,
+				"cart":false,
+				"imagen" : "img/jacket-man1.jpg",
+				"cart": false
+				
+		},
+		{
+				"code": 14 ,
+				"type" : "Shirt",
+				"brand":"Nike",
+				"color": "white",
+				"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus leo. Mauris fringilla posuere urna in imperdiet. Aenean id dignissim risus, sed sollicitudin leo. Pellentesque ut tortor eget sem interdum placerat. Morbi enim dolor, blandit eget congue eget, porta nec augue. Nunc diam diam, fermentum facilisis tellus et, consequat tempus nulla. Integer egestas ligula sed efficitur lobortis. Morbi vel elit ac ante faucibus tristique. Sed vitae dictum ipsum. Proin non lacus placerat, blandit diam eu, convallis est.",
+				"gender":"woman",
+				"sizes":["S","M","L","XL"],
+				"price": 25,
+				"discount":10,
+				"cart":false,
+				"imagen": "img/shirt-woman2.jpg",
+				"cart": false
+
+		}
+		]
+}

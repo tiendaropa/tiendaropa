@@ -1,0 +1,424 @@
+/* Index */
+
+/*
+  #Globals html
+  #Classes
+  #Layout
+  #Modules 
+*/
+
+/* #Globals html
+================================================= */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Roboto", Verdana, sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+  color: #58585A;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin: 7rem auto;
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+/* #Classes
+================================================= */
+
+.mayuscula {
+  text-transform: uppercase;
+}
+
+/*titles*/
+.title {
+  font-size: 42px;
+  font-size: 4.2rem;
+  font-weight: 100;
+}
+
+.sub-title {
+  font-size:12px;
+  margin-bottom: 9px;
+  text-align: center; 
+}
+
+/*------Navegation--------------------------------------------------*/
+
+.main-navegation  {
+  border-bottom: 2px solid gray;
+  background-color: #fff;
+  height: 7rem;
+  
+  width: 100%;
+  padding: 0 20%;
+  position: fixed;
+  top: 0;
+
+  z-index: 1000;
+}
+
+.main-navegation-item {
+  float: left;
+  height: 7rem;
+  line-height: 7rem;
+  position: relative;
+  width: 14rem;
+
+
+}
+
+.main-navegation-item > a {
+  display: block;
+  padding: 1rem 3rem;
+  position: relative;
+  overflow: hidden;
+  line-height: 5rem;
+  height: 7rem;
+}
+
+.main-navegation-item > a > img{
+
+  float: left;
+  width: 4rem;
+  z-index: 1000;
+
+}
+
+
+
+#cart-list{
+  width: 40rem;
+}
+
+.secondary-menu-list {
+
+  width: 25rem;
+}
+.secondary-menu {
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid gray;
+  padding: 1rem 3rem;
+
+}
+
+
+
+#cart-count {
+  display: block;
+  background-color: red;
+  left: 6rem;
+  font-weight: bold;
+  top:0;
+  border-radius: 50%;
+  color: #fff;
+  z-index: 200000;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  text-align: center;
+  line-height: 3rem;
+}
+
+#cart-list {
+
+}
+
+.cart-item {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.cart-item img{
+  float: left;
+  height: 80px;
+  width: 80px;
+  }
+
+.cart-producto-info{
+  margin-left: 2rem;
+ float: left;
+ position: relative;
+ overflow: hidden;
+
+
+}
+.cart-producto-info h2{
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin-top: 1.2rem;
+
+}
+
+.cart-producto-info h3{
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+
+
+
+.main-navegation-item:hover{
+  background-color: gray;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+.main-navegation-item:hover >a{
+  color: #fff;
+}
+.main-navegation-item:hover .secondary-menu {
+  display: block;
+}
+
+.secondary-menu:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+.secondary-menu:hover a {
+
+  color: #fff;
+}
+
+.selected {
+  background-color: #bee8fa;
+}
+
+/*------productos--------------------------------------------------*/
+
+#productos{
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  padding-bottom: 15rem;
+}
+
+.content{
+  width: 100%;
+}
+.miniatura-producto {
+  display: block;
+  margin-right: 0.5%;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.prod { 
+    background-color: #fff;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-bottom: 1rem;
+  width: 25%;
+  height: 360px;
+  padding: 0.5rem 3%;
+}
+
+.prod img {
+  height: 77%;
+  width: initial;
+  margin: 0 auto 15px auto;
+  display: block;
+
+}
+
+.prod h2 {
+  color: #3d5764;
+  margin-bottom: 20px;
+
+}
+
+.prod h3 {
+  color: #5a8294;
+  display: block;
+  font-size: 1rem;
+
+}
+
+.display-producto {
+  background-color: #bee8fa;
+  position: relative;
+
+  float: left;
+  width: 99%;
+  padding: 3% 5%;
+  display: none;
+}
+
+.display-producto img {
+  float: left;
+  margin: 0 auto;
+  height:410px;
+  width:410px;
+}
+
+.producto-info {
+  width: 50%;
+  margin-left: 40px;
+  display: inline-block;
+
+}
+
+.producto-info h2 {
+  font-size: 3rem;
+  color: #01A9DB;
+  margin: 0;
+}
+
+.producto-info h3 {
+  color: #000;
+  font-size: 2rem;
+}
+
+.producto-info p span {
+
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.producto-info p { 
+
+  display: block;
+
+}
+
+
+
+.prod i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5rem solid transparent;
+    margin-top: -1.5rem;
+    border-bottom: 1.5rem solid #BEE8FA;
+    left: 45%;
+    bottom: -15px;
+    display: none;
+}
+
+.paginacion-productos{
+  display: block;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  margin:0 auto;
+}
+
+
+
+
+
+
+
+/*noticias*/
+
+
+
+/*acerca*/
+
+
+
+
+/*buttons*/
+
+
+/* #Layout
+================================================= */
+.prod:hover {
+
+  border: solid 3px #F0F1F2;
+}
+
+.pagina:first-child:hover, .pagina:last-child:hover{
+  background-color: #494949;
+}
+
+
+/* #Modules 
+================================================= */
+
+
+.pagina{
+  display: inline-block;
+  background-color: #929292;
+  color: #fff;
+  margin: 5px;
+  padding: 10px 15px;
+}
+
+.seleccionado{
+  border: solid 3px #BEE8FA;
+}
+
+
+
+
+.comprar{
+  color: #3D5764;
+  padding: 20px 25px;
+  border: 1px solid #3D5764;
+  position: absolute;
+  bottom: 75px;
+}
+
+.add-status {
+  position: absolute;
+  margin-left: 176px;
+  bottom: 95px;
+  display: none;
+}
+
+.green {
+  color: #fff;
+  background-color: green ;
+  /*display: inline-block;*/
+}
+
+.removed {
+  color: red;
+
+  /*display: inline-block;*/
+}
+
+.blanco{
+ background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

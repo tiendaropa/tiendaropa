@@ -1,0 +1,38 @@
+{	
+	"productos":[
+				
+				{
+					"id":"0",
+					"nombre":"Leche",
+					"descripción":"Caja de leche dos pinos 1Litro",
+					"precio": 800,
+					"código": "001",
+					"imagen": "img/leche.jpg"
+				},
+				{
+					"id":"1",
+					"nombre":"Pan",
+					"descripción":"Pan integral Konig 500g",
+					"precio": 500,
+					"código": "001",
+					"imagen": "img/pan.jpg"
+				},
+				{
+					"id":"2",
+					"nombre":"Mayonesa",
+					"descripción":"Mayonesa Lizano 500ml",
+					"precio": 1000,
+					"código": "001",
+					"imagen": "img/mayonesa.jpg"
+				},
+				{
+					"id":"3",
+					"nombre":"Avena",
+					"descripción":"Avena BioLand 500g",
+					"precio": 1200,
+					"código": "001",
+					"imagen": "img/avena.jpg"
+				}
+
+			]
+}

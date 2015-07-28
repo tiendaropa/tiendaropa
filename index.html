@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Clothing</title>
+	<script type="text/javascript" src='js/jquery.js'></script>
+	<script type="text/javascript" src='js/main.js'></script>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+
+	<body>
+		<header>
+			<ul class="main-navegation">
+				<li class="main-navegation-item" ><a href="#" id="home">Home</a></li>
+				<li class="main-navegation-item" ><a href="#" id="home">Sort By +</a>
+					<ul id="sort-list" class="secondary-menu-list">
+						<li class="secondary-menu sort" data-type="type"><a href=""> Type</a></li>
+						<li class="secondary-menu sort" data-type="brand"><a href=""> Brand</a></li>
+						<li class="secondary-menu sort" data-type="price"><a href=""> Price: Low to High</a></li>
+						<li class="secondary-menu sort" data-type="price2"><a href=""> Price: High to Low</a></li>
+					</ul>
+				</li>
+				<li class="main-navegation-item" ><a href="#" ><img src="img/cart.png" ><span id="cart-count">0</span></a>
+					<ul id="cart-list" class="secondary-menu-list">
+						
+					</ul>
+				</li>
+				<li class="" >
+					<input type="text" name="name" id="search" placeholder="search">
+				</li>
+			</ul>
+		</header>
+
+		<section id="productos">
+			<h2 class= "title">Productos</h2>
+			<div class="content">
+				<div class='miniatura-producto' id='primer-producto'></div>
+
+				<div class='display-producto'></div>
+
+				<div class='miniatura-producto' id='segundo-producto'></div>
+
+				<div class='display-producto'></div>
+
+				<div class='miniatura-producto' id='tercer-producto'></div>
+
+				<div class='display-producto'></div>
+
+				
+			</div>
+			<div class='paginacion-productos' id='paginacion-productos'></div>
+    </section><!--productos-->
+    <aside class='cart-list'>
+    	
+    </aside>
+
+
+    
+
+	</body>
+</html>
