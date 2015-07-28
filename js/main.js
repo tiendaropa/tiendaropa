@@ -16,7 +16,7 @@ $( document ).ready(function() {
         dibujaLista(productos);
     },
     error: function (request, status, error) {
-        alert(request.responseText);
+        $("#primer-producto").html("There is an error loading data");
     }
 });
 
